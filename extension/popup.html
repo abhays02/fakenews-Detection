@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fake News Detector</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="card">
+    <div id="confidence" class="confidence-score">🔵 92% Real</div>
+    <div id="message" class="result-message">This article seems <span class="result">Real</span> based on AI analysis.</div>
+    <button id="feedback-btn">Is this result wrong? Tell us!</button>
+    <div class="about-link">
+      <a href="#" id="about-ai">About AI</a>
+    </div>
+  </div>
+  <div id="feedback-form" class="hidden">
+    <textarea id="feedback-text" placeholder="Describe what's wrong..."></textarea>
+    <button id="submit-feedback">Submit Feedback</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+transformers>=4.0.0
+scikit-learn
+pandas
+torch
+fastapi
+uvicorn
+joblib
+numpy
+# onnxruntime and onnx removed, not needed for transformers.js in-browser inference

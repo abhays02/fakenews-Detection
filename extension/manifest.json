@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Fake News Detector AI",
+  "version": "1.0",
+  "description": "Detects fake news in real-time using an AI model (BERT) inside your browser.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
