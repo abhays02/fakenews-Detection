@@ -93,12 +93,12 @@ fakenews/
 ---
 
 ## Screenshots
-Image 1: Fake News detected with probability  <br>     <img src = "Image 1.png">
+Image 1: Fake News detected with probability  <br>     <img src = "5.png">
 
 
 <br>
 
-Image 2: Real News detected with probability  <br>     <img src = "Image 2.png">
+Image 2: Real News detected with probability  <br>     <img src = "10.png">
 
 ---
 
