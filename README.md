@@ -14,8 +14,9 @@ This project is a complete Fake News Detection system featuring:
 4. [API Backend](#api-backend)
 5. [Dataset Url](#dataset-url)
 6. [Model Training](#model-training)
-7. [Setup & Installation](#setup--installation)
-8. [Development Notes](#development-notes)
+7. [Screenshots](#Screenshots)
+8. [Setup & Installation](#setup--installation)
+9. [Development Notes](#development-notes)
 
 ---
 
@@ -90,6 +91,10 @@ fakenews/
 - Outputs: `results/logreg_model.joblib` and `results/vectorizer.joblib`
 
 ---
+
+## Screenshots
+Image 1: Fake News detected with probability
+Image 2: Real News detected with probability
 
 ## Setup & Installation
 ### 1. Install Python Dependencies
