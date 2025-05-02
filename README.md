@@ -12,9 +12,10 @@ This project is a complete Fake News Detection system featuring:
 2. [How It Works](#how-it-works)
 3. [Browser Extension](#browser-extension)
 4. [API Backend](#api-backend)
-5. [Model Training](#model-training)
-6. [Setup & Installation](#setup--installation)
-7. [Development Notes](#development-notes)
+5. [Dataset Url](#dataset-url)
+6. [Model Training](#model-training)
+7. [Setup & Installation](#setup--installation)
+8. [Development Notes](#development-notes)
 
 ---
 
@@ -73,6 +74,12 @@ fakenews/
   - `POST /predict` – Classifies input text as REAL or FAKE
   - `GET /` – Health/status check
 - CORS enabled for local development.
+
+---
+
+## Model Training
+
+- Link to download Dataset is https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resource=download
 
 ---
 
