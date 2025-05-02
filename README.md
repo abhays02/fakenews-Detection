@@ -77,7 +77,7 @@ fakenews/
 
 ---
 
-## Model Training
+## Dataset Url
 
 - Link to download Dataset is https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset?resource=download
 
