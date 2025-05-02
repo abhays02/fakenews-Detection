@@ -94,7 +94,9 @@ fakenews/
 
 ## Screenshots
 Image 1: Fake News detected with probability
-Image 2: Real News detected with probability
+Image 2: Real News detected with probability  https://github.com/abhays02/fakenews-Detection/blob/main/Image%202.png
+
+---
 
 ## Setup & Installation
 ### 1. Install Python Dependencies
